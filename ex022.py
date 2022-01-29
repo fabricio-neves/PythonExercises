@@ -1,0 +1,8 @@
+print('This program reads your full name, and analyse it.')
+full_name = input('Inform your full name: ')
+split_name = full_name.split()
+print('Analysing your name...')
+print(f'Your name is written in upper case as {full_name.upper()}.')
+print(f'Your name is written in lower case as {full_name.lower()}')
+print(f'Your full name has {len()}')
+print(f'Your first name is {full_name.split(0)}')
