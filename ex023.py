@@ -1,0 +1,7 @@
+print('This program reads a number and analyses it as an integer.')
+num = int(input('Inform a number: '))
+print(f'Analysing the number {num}...')
+print(f'Units: {int(num % 10)}')
+print(f'Tens: {int((num % 100) / 10)}')
+print(f'Hundreds: {int((num % 1000) / 100)}')
+print(f'Thousands: {int((num % 10000) / 1000)}')
